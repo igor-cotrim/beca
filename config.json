@@ -1,20 +1,24 @@
 {
-  "nome": "merk",
+  "nome": "beca",
   "acoes": [
     {
       "nome": "ligar",
       "objetos": [
         "motor",
-        "piloto automativo",
-        "gps"
+        "autopilot",
+        "gps",
+        "farol",
+        "music"
       ]
     },
     {
       "nome": "desligar",
       "objetos": [
         "motor",
-        "piloto automativo",
-        "gps"
+        "autopilot",
+        "gps",
+        "farol",
+        "music"
       ]
     },
     {
@@ -31,6 +35,19 @@
         "volante",
         "cadeira",
         "retrovisores"
+      ]
+    },
+    {
+      "nome": "aumentar",
+      "objetos": [
+        "music",
+        "volume"
+      ]
+    },
+    {
+      "nome": "calcular",
+      "objetos": [
+        "rota"
       ]
     }
   ]

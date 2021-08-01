@@ -82,7 +82,8 @@ def validiar_comando(acao, objeto):
   return valido
 
 def executar_comando(acao, objeto):
-  print("Comando a ser executado é: ", acao, objeto)
+  # print(f"Comando a ser executado é: ", acao, objeto)
+  print(f"Vou {acao} o(a) {objeto} ")
 
 if __name__ == '__main__':
   iniciar()
@@ -93,7 +94,7 @@ if __name__ == '__main__':
       comando = escutar_comando()
       if comando:
         acao, objeto = tokenizar_comando(comando)
-        valido = validiar_comando()
+        valido = validiar_comando(acao, objeto)
         if valido:
           executar_comando(acao, objeto)
         else:

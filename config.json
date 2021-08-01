@@ -1,0 +1,37 @@
+{
+  "nome": "merk",
+  "acoes": [
+    {
+      "nome": "ligar",
+      "objetos": [
+        "motor",
+        "piloto automativo",
+        "gps"
+      ]
+    },
+    {
+      "nome": "desligar",
+      "objetos": [
+        "motor",
+        "piloto automativo",
+        "gps"
+      ]
+    },
+    {
+      "nome": "ajustar",
+      "objetos": [
+        "volante",
+        "cadeira",
+        "retrovisores"
+      ]
+    },
+    {
+      "nome": "ajustar",
+      "objetos": [
+        "volante",
+        "cadeira",
+        "retrovisores"
+      ]
+    }
+  ]
+}

@@ -82,7 +82,6 @@ def validiar_comando(acao, objeto):
   return valido
 
 def executar_comando(acao, objeto):
-  # print(f"Comando a ser executado é: ", acao, objeto)
   print(f"Vou {acao} o(a) {objeto} ")
 
 if __name__ == '__main__':

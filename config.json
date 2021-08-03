@@ -30,14 +30,6 @@
       ]
     },
     {
-      "nome": "ajustar",
-      "objetos": [
-        "volante",
-        "cadeira",
-        "retrovisores"
-      ]
-    },
-    {
       "nome": "aumentar",
       "objetos": [
         "music",
